@@ -1,15 +1,22 @@
 <html><style>
  .bg  
  {background-image:url("churros.jpg");
+ min-height: 380px;
  background-position:center;
- filter: blur(2px);
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
  background-size: cover;}
+.container {
+  position: absolute;
+    margin: 20px;
+   
+}
  </style>  
  <body>
-  <h1>Review</h1>
- <div class="bg"></div>
-<form>
+ 
+ <div class="bg">
+ <h1>Review</h1>
+ <form class="container">
+
 first name:
 <input type="text" name=" first name">
 <br>
@@ -32,8 +39,8 @@ review:
 <br>
 <br>
 <input type="submit" value="submit">
- </form>
-  
+ </form>	
+  </div>
   
   
   
@@ -56,3 +63,4 @@ review:
   
   
   </body></html>
+
